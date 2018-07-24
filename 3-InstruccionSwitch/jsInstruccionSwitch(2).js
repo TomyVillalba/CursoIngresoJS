@@ -7,29 +7,29 @@ alert (mesDelAño);
 
 switch(mesDelAño)
 {
-    case enero: 
+    case "Enero": 
 
-    case febrero: 
+    case "Febrero": 
 
-    case marzo:
+    case "Marzo":
 
-    case abril:
+    case "Abril":
 
-    case mayo:  alert("Falta para el invierno");
+    case "Mayo":  alert("Falta para el invierno");
     break;
-    case junio:
+    case "Junio":
 
-    case julio: 
+    case "Julio": 
 
-    case agosto: alert("Abrigate que hace frio");
+    case "Agosto": alert("Abrigate que hace frio");
     break;
-    case septiempre:
+    case "Septiempre":
 
-    case octubre: 
+    case "Octubre": 
            
-    case noviembre: 
+    case "Noviembre": 
 
-    case diciembre: alert("Ya pasamos el frio, ahora el calor!");
+    case "Diciembre": alert("Ya pasamos el frio, ahora el calor!");
     break;
 }
 
