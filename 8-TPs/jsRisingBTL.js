@@ -9,5 +9,26 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
- 
+    var sexo;
+    var edad;
+    var estadoCivil;
+    var legajo;
+    var sueldo;
+    var nacionalidad;
+
+    if(!(edad >= 18 && edad <= 90))
+    {
+        edad = prompt("Ingrese una edad valida: ");
+
+        if(edad >= 18 && edad <= 90)
+        {
+            alert("Edad valida");
+        }
+
+    } 
+    if(!(sexo != "F" || sexo != "M"))
+    {
+        sexo = prompt("Ingrese un sexo valido: ");
+
+    }
 }
