@@ -3,14 +3,15 @@ function mostrar()
 
 	var numero = prompt("ingrese un número entre 0 y 10.");
 
-	while(numero > 0 && numero < 10)
+	while(!(numero > 0 && numero < 10))
 	{
 		
-		numero = alert("Numero correcto");
+		numero = prompt("Numero Incorrecto. Reingrese numero: ");
+
 
 	}
 
-		prompt("Numero incorrecto, reingrese numero");
+		alert("Numero Correcto");
 
 
 }//FIN DE LA FUNCIÓN
